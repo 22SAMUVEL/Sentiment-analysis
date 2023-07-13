@@ -30,7 +30,7 @@ warnings.filterwarnings('ignore')
 from google.colab import drive
 drive.mount('/content/drive/MyDrive/IMDBDataset.csv')
 #importing the training data
-imdb_data=pd.read_csv("/content/drive/MyDrive/IMDB Dataset.csv")
+imdb_data=pd.read_csv("/content/drive")
 print(imdb_data.shape)
 imdb_data.head(10)
 #Summary of the dataset
